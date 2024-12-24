@@ -1,0 +1,35 @@
+#stBody {
+    align-self: center;
+    background-color: blueviolet;
+    width: 95%;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 5em;
+    margin-bottom: 5em;
+}
+
+.stBackground {
+    align-self: center;
+    background-color: aquamarine;
+    width: 90%;
+    height: 15em;
+    margin-top: 1em;
+}
+
+.stContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+}
+
+.stBox {
+    background-color: bisque;
+    width: 5em;
+    height: 5em;
+    margin: 10px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: outset;
+    border-width: 2.5px;
+}
